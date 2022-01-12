@@ -5,12 +5,11 @@ const cards = document.getElementById('cards');
 json.forEach(element => {
     cards.innerHTML += `
     <div class="bg card my-4 mx-auto" style="">
-    <img src="..." class="card-img-top" alt="...">
     <div class=" card-body">
     <p class="card-text my-1">Rank: ${element['Rank']}</p>
       <h5 class="card-title my-2">${element['Institute']}</h5>
       <p class="card-text my-1">City: ${element['City']}</p>
-      <p class="card-text my-1">State: ${element['State']}</p>
+      <p class="card-text my-1">State/UT: ${element['State']}</p>
 
     </div>
   </div>
